@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="##ptySsMZGMo`VUg[P~m" x="225" y="20"><statement name="HANDLER"><block type="device_show_leds" id="+Mr.)Jl}J+J}opBP48di"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="controls_if" id=")^0Gi_MEPGp/a|sD;qnO"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="B9-^D8d-1CA{q3K=}X+s"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="basic_show_icon" id="mJ^FE5@7]aV5r25qrnih"><field name="i">IconNames.Happy</field></block></statement><next><block type="controls_if" id="+f:v@A)5WZb-W_HiEpf3"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="4xnWuq#=]I(~@[D,2I3^"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="basic_show_icon" id="r1UIg}q^RU1REf?,9VH$"><field name="i">IconNames.Sad</field></block></statement><next><block type="controls_if" id="9w[32zR3jNm,Ms!/TJ(N"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="input_logo_is_pressed" id="6OI.FQ1jjv_1|pKZ-pbA"/></value><statement name="DO0"><block type="basic_show_icon" id="JcaJAxc,hxl%x7:Xr,yZ"><field name="i">IconNames.Surprised</field></block></statement></block></next></block></next></block></next></block></statement></block></xml>
